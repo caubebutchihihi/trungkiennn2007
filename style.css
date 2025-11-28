@@ -1,0 +1,36 @@
+:root{
+--bg:#f5f7fa; --card:#fff; --accent:#007bff; --muted:#6b7280;
+--radius:12px; --shadow:0 6px 18px rgba(0,0,0,0.06);
+}
+body{margin:0;background:var(--bg);color:#111;font-family:Arial;}
+header{background:#0f172a;color:#fff;padding:16px 22px;display:flex;justify-content:space-between;align-items:center;}
+.brand{font-size:20px;font-weight:700;}
+nav a{color:#cbd5e1;margin-left:16px;text-decoration:none;}
+nav a.active{color:white;font-weight:600;}
+
+
+.hero{background:url('https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1200&q=80') center/cover;padding:80px 20px;color:#fff;text-align:center;}
+.hero h1{text-shadow:0 3px 10px rgba(0,0,0,0.4);}
+
+
+.container{max-width:1100px;margin:40px auto;padding:0 20px;}
+.section-title{font-size:26px;margin-bottom:20px;font-weight:700;}
+.cards{display:flex;gap:20px;flex-wrap:wrap;}
+.card{flex:1;min-width:260px;background:var(--card);padding:20px;border-radius:var(--radius);box-shadow:var(--shadow);}
+.big{font-size:28px;font-weight:bold;}
+
+
+.profile{display:flex;gap:20px;flex-wrap:wrap;margin-top:20px;}
+.profile img{width:160px;height:160px;border-radius:12px;object-fit:cover;box-shadow:var(--shadow);}
+.accent{color:var(--accent);}
+.profile-info h2{margin-top:0;}
+
+
+.share-box{background:var(--card);padding:20px;border-radius:var(--radius);box-shadow:var(--shadow);margin-top:20px;}
+.share-box input,.share-box select{padding:10px;width:100%;margin-top:6px;border-radius:8px;border:1px solid #ddd;}
+
+
+.btn{padding:12px 18px;background:var(--accent);color:#fff;border:none;border-radius:8px;margin-top:12px;cursor:pointer;}
+
+
+footer{text-align:center;padding:20px;color:var(--muted);}

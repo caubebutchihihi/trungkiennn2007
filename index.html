@@ -1,0 +1,75 @@
+
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hệ thống EMR - Hồ sơ bệnh án điện tử</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="brand">EMR Manager</div>
+  <nav>
+    <a href="#" class="active">Trang chủ</a>
+    <a href="#profile">Hồ sơ</a>
+    <a href="#share">Chia sẻ</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Hệ thống quản lý hồ sơ bệnh án điện tử</h1>
+  <p>An toàn • Nhanh chóng • Đồng bộ theo chuẩn EMR quốc gia</p>
+</section>
+
+<div class="container">
+  <h2 class="section-title">Dashboard tổng quan</h2>
+  <div class="cards">
+    <div class="card"><h3>Tổng hồ sơ</h3><p class="big">1,243</p></div>
+    <div class="card"><h3>Cập nhật xét nghiệm</h3><p class="big">19</p></div>
+    <div class="card"><h3>Yêu cầu chia sẻ</h3><p class="big">7</p></div>
+  </div>
+
+  <h2 id="profile" class="section-title">Hồ sơ bệnh nhân</h2>
+  <div class="profile">
+    <img src="C:\Users\DELL\Downloads\bfpp.jpg" alt="patient">
+    <div class="profile-info">
+      <h2>Nguyễn Văn Tùng — <span class="accent">#A1243</span></h2>
+      <p>Ngày sinh: 01/01/1980 — Giới tính: Nam</p>
+      <p>SĐT: 0123-456-789 — Hà Nội</p>
+      <p>Chẩn đoán hiện tại: Tăng huyết áp</p>
+
+      <h3>Xét nghiệm gần nhất</h3>
+      <table>
+        <tr><th>Ngày</th><th>Loại xét nghiệm</th><th>Kết quả</th></tr>
+        <tr><td>2025-11-18</td><td>Huyết đồ</td><td>Bình thường</td></tr>
+        <tr><td>2025-10-02</td><td>Cholesterol</td><td>5.2 mmol/L</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <h2 id="share" class="section-title">Chia sẻ hồ sơ</h2>
+  <div class="share-box">
+    <label>Chọn hồ sơ</label>
+    <select>
+      <option>#A1243 — Nguyễn Văn Tùng</option>
+      <option>#B774 — Trần Thị Lan Anh</option>
+    </select>
+
+    <label>Email bác sĩ</label>
+    <input type="email" placeholder="nguyenkien2804207@gmail.com">
+
+    <label>Quyền truy cập</label>
+    <select>
+      <option>Chỉ xem</option>
+      <option>Xem & chỉnh sửa</option>
+      <option>Giới hạn 7 ngày</option>
+    </select>
+
+    <button class="btn">Tạo link chia sẻ</button>
+  </div>
+</div>
+
+<footer>© 2025 EMR Manager — Hồ sơ bệnh án điện tử</footer>
+</body>
+</html>
